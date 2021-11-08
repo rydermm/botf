@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Hm... There seems to be a problem. STart a covo by saying hi!.</template>
+  </category>
+  
+ <category>
+     <pattern>Hi</pattern>
+     <template>Hi, How can i help. Ask us a question such as " where are the toilets or ask "List" for a set of questions"</template>
+ </category>
+ 
+ <category>
+     <pattern>List</pattern>
+     <template>
+         <ul>
+             <li>Where are the toilets</li>
+             <li>What do i do at lunch</li>
+             <li>Where do i put my computer</li>
+             <li>Where is my locker</li>
+             <li>Where should I go if I lose something?</li>
+             <li>How do I know what teacher I have for Maths?</li>
+              <li>How can I see who is in my music class?</li>
+              <li>How can I tell what class I have next?</li>
+                 <li>Where is canteen</li>
+                    <li>WHere is the lecture theature</li>
+                       <li>Where is my timetable</li>
+                          <li>Where are the sport rooms</li>
+                             <li>What is the marist way</li>
+                                <li>What is st marcellins hall</li>
+                                   <li>HWhere is the drama room</li>  
+                                   <li>What instrument should i play</li>
+            <li>How do I?
+•	How can I tell what class I have next?
+
+•
+•	I broke my laptop how can I get it fixed?
+</li>
+
+         </ul>
+     </template>
+ </category>
+ 
+<category>
+    <pattern>where are the toilets</pattern>
+    <template>In the building</template>
+</category>
+ 
+ <category>
+     <pattern>Where is the * </pattern>
+     <template>Sorry we dont seem to have the answer for that.</template>
+ </category>
+ 
+<category>
+    <pattern>What do i do at lunch</pattern>
+    <template>Play outisdewith your mates</template>
+</category>
+
+<category>
+    <pattern>Where do i put my computer</pattern>
+    <template>Either in your locker or to the class</template>
+</category>
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+
+</aiml>
+
